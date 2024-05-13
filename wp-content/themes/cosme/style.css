@@ -1,0 +1,82 @@
+/*!
+Theme Name: Cosme
+Theme URI: https://www.codegearthemes.com/products/cosme
+Author: CodeGearThemes
+Author URI: https://codegearthemes.com/
+Description: Cosme is a modern highly customizable WooCommerce WordPress theme for online stores, e-commerce, cosmetic, handmade, fashion and lifestyle websites, with pixel perfect design and extensive functionality to create your own professional and unique online store.
+Version: 1.1.46
+Tested up to: 5.9
+Requires PHP: 7.3
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: cosme
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Cosme is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+body{
+    background: #eeeade;
+}
+.display{
+    display: none !important;
+}
+.search_form_desktop_responsive form{
+    display: flex;
+    max-width: 1160px;
+    margin: auto;
+    padding: 30px 0;
+    justify-content: center;
+}
+.search_form_desktop_responsive form input{
+    flex: auto;
+}
+.page-header-wrapper{
+    background: #dcd6cc;
+}
+
+.site-footer .section-footer{
+    padding: 60px 0;
+}
+.site-footer .widget ul li a{
+    font-weight: 400;
+    color: #000000;
+}.site-footer .widget ul li a:hover{
+    text-decoration: underline #A86969;
+}
+.site-footer .widgettitle {
+    padding: 20px 0;
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1620px;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .large--two-fifths {
+        flex: 0 0 25% !important;
+        width: 25% !important;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .large--one-fifth {
+        flex: 0 0 25% !important;
+        width: 25% !important;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .site-footer .widget ul li{
+        text-align: center;
+    }
+    .site-footer .widgettitle {
+        text-align: center;
+    }
+}
