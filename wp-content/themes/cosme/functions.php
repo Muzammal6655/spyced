@@ -86,11 +86,12 @@ if ( ! function_exists( 'cosme_setup' ) ) :
 			apply_filters(
 				'cosme_custom_background_args',
 				array(
-					'default-color' => 'ffffff',
+					'default-color' => '#eeeade',
 					'default-image' => '',
 				)
 			)
 		);
+		
 
 		// Add theme support for selective refresh for widgets.
 		add_theme_support( 'customize-selective-refresh-widgets' );

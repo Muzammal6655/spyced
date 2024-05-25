@@ -28,6 +28,19 @@ body{
 .display{
     display: none !important;
 }
+
+.main-navigation ul .menu-item-has-children>.sub-menu{
+    background-color: #eeeade;
+    border-top: 2px solid #A4561F;
+}
+.main-navigation a:hover{
+    border-bottom: 2px solid #A4561F;
+    color: #A4561F !important;
+}
+.active{
+    border-bottom: 2px solid #A4561F;
+    color: #A4561F !important;
+}
 .search_form_desktop_responsive form{
     display: flex;
     max-width: 1160px;
@@ -41,6 +54,65 @@ body{
 .page-header-wrapper{
     background: #dcd6cc;
 }
+
+/* woocommerce style */
+
+.woocommerce-products-wrapper .products li a h2, .page-template-home-template ul.products li a h2, .elementor-page ul.products li a h2{
+    padding: 20px 0 0 0;
+}
+
+.description_ul_tab{
+    padding: 0;
+}
+
+.single-product .woocommerce-message {
+    background-color: #dcd6cc;
+    padding: 30px 15px;
+    margin: 20px 0;
+}
+.single-product .woocommerce-message a{
+    background-color: #A86969;
+}
+.woocommerce-Price-amount {
+    font-size: 18px;
+    font-weight: 600;
+    color: #A4561F;
+}
+.woocommerce .woocommerce-cart-form .shop_table th{
+    font-weight: 600;
+}.woocommerce-cart-form .quantity{
+    margin-top: 20px;
+}
+.woocommerce .woocommerce-form-coupon-toggle .woocommerce-info{
+    background-color: #dcd6cc;
+    margin: 20px 0;
+}
+.wc_payment_methods{
+    display: none;
+}
+.woocommerce-checkout .checkout-wrapper h3{
+    background-color: #7a9474;
+}
+.woocommerce-checkout .woocommerce-checkout-review-order .shop_table th{
+    background-color: #dcd6cc;
+}
+.woocommerce-checkout-review-order .shop_table .cart_item td{
+    background-color: #dcd6cc;
+}
+.woocommerce-checkout button:hover{
+    background-color: #A4561F;
+}
+
+.woocommerce-sorting-wrapper .orderby, .page-header-wrapper, .woocommerce-page-header, .page-header:not(.entry-header){
+    background-color: #dcd6cc;
+}
+.site-header .site-header-cart:hover .cart-container{
+    display: none ;
+}
+.woocommerce .woocommerce-cart-form [name="update_cart"]:hover{
+    background-color: #A4561F;
+}
+/* ///////// */
 
 .site-footer .section-footer{
     padding: 60px 0;
@@ -59,6 +131,10 @@ body{
         max-width: 1620px;
     }
 }
+@media screen and (max-width: 992px) {
+    .main-navigation .navigation--desktop ul {
+        background-color: #eeeade;
+    }}
 @media only screen and (min-width: 769px) {
     .large--two-fifths {
         flex: 0 0 25% !important;
